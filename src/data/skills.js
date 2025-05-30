@@ -6,14 +6,14 @@ export const skillsData = {
   ],
   frameworks: [
     { name: "Flutter", level: 75 },
-    { name: "Express.js", level: 40 },
-    { name: "JetpackCompose", level: 30 }
+    { name: "Express.js", level: 35 },
+    { name: "Jetpack Compose", level: 35 }
   ],
   databases: [
     { name: "SQL", level: 40 },
-    { name: "SQLite", level: 40 },
     { name: "Supabase", level: 0 },
-    { name: "Firestore DB", level: 0 }
+    { name: "Firestore DB", level: 0 },
+    { name: "AppWrite", level: 0 },
   ],
   tools: [
     { name: "Firebase", icon: "fire" },

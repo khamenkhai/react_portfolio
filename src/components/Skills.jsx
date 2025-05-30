@@ -109,7 +109,7 @@ const Skills = () => {
                 className="flex flex-col items-center p-4 editor-bg rounded-lg border border-border"
               >
                 {getIcon(tool.icon)}
-                <span className="text-sm font-medium">{tool.name}</span>
+                <span className="text-sm font-medium text-center">{tool.name}</span>
               </div>
             ))}
           </div>

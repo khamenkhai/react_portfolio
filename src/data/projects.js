@@ -34,9 +34,19 @@ export const projectsData = [
     details: "",
     tags: ["Flutter", "Bloc", "MVC", "SQLite"]
   },
-
   {
     id: 4,
+    title: "Beauty Clinic",
+    image: "/images/beauty_clinic.png",
+    link: "#",
+    noBorder: true,
+    description: "A comprehensive system designed to streamline clinic operations across multiple branches. Key features include appointment scheduling, patient and treatment management, and an integrated booking system for clients, staff, and doctors.",
+    details: "",
+    tags: ["Flutter", "Provider", "Clean Architecture", "Responsive"]
+  },
+
+  {
+    id: 5,
     title: "FyreChat",
     image: "/images/pub-dev-logo.svg",
     link: "https://pub.dev/packages/fyrechat",

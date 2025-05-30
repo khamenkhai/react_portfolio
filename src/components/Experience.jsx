@@ -24,9 +24,9 @@ const Experience = () => {
           {exp.links && (
             <div className="flex flex-wrap gap-2 mb-4">
               {exp.links.map((link, index) => (
-                <a 
-                  key={index} 
-                  href={link.url} 
+                <a
+                  key={index}
+                  href={link.url}
                   className="flex items-center text-muted hover:text-accent text-sm"
                 >
                   <FaLink className="mr-1" /> {link.text}
@@ -36,19 +36,9 @@ const Experience = () => {
           )}
           <div className="flex flex-wrap gap-2">
             {exp.tags.map((tag, index) => (
-              <span 
-                key={index} 
-                className={`px-3 py-1 rounded-full text-sm font-mono ${
-                  tag.includes('Flutter') ? 'tag-flutter' : 
-                  tag.includes('Provider') ? 'tag-provider' : 
-                  tag.includes('GetX') ? 'tag-getx' : 
-                  tag.includes('MVC') ? 'tag-mvc' : 
-                  tag.includes('Google Map') ? 'tag-google-map-api' : 
-                  tag.includes('Bloc') ? 'tag-bloc' : 
-                  tag.includes('Flavour') ? 'tag-flavour' : 
-                  tag.includes('WebSockets') ? 'tag-websockets' : 'tag-techstack'
-                }`}
-              >
+              <span
+                key={index}
+                className={`px-3 py-1 rounded-full text-sm font-mono tag-techstack`} >
                 {tag}
               </span>
             ))}
