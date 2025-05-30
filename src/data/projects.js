@@ -2,7 +2,7 @@ export const projectsData = [
   {
     id: 1,
     title: "SafeDelivery",
-    image: "./public/images/safe_delivery.webp",
+    image: "./images/safe_delivery.webp",
     link: "https://play.google.com/store/apps/details?id=com.gigagates.client.safe&hl=en",
     description: "SAFE Delivery App – A user-friendly app for parcel delivery and cash collection. Easily schedule pickups, manage recipients, and track deliveries in real time with WayID",
     tags: ["Flutter", "Provider", "Firebase", "Google Map Api"]
@@ -10,7 +10,7 @@ export const projectsData = [
   {
     id: 2,
     title: "ShanShan Restaurant",
-    image: "/public/images/shanshan.png",
+    image: "/images/shanshan.png",
     link: "https://github.com/khamenkhai/shanshan_screenshots",
     description: "ShanShan POS – A full-featured Point of Sale system built for Malar Xiang Guo restaurant. SHANSHAN handles in-house ordering with receipt printing support, tax and discount management, and seamless checkout—just like a traditional POS setup",
     tags: ["Flutter", "Bloc", "MVC", "get_it(service locator)", "Sunmi Printer"]
