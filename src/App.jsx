@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <div className="lg:w-1/2 xl:w-3/5">
               <div style={{ height: '45px' }}></div>
               <About />
+              <Education/>
               <Experience />
               <Projects />
               <Certifications />
