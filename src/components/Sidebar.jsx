@@ -27,7 +27,7 @@ const Sidebar = () => {
         <div style={{ height: '100px' }}></div>
         <h1 className="text-4xl lg:text-5xl font-bold mb-2">Kham En Khai</h1>
         <h2 className="text-xl lg:text-2xl mb-2">Mobile App Developer</h2>
-        <p className="text-base lg:text-lg mb-6">Flutter & Python Enthusiast</p>
+        <p className="text-base lg:text-lg mb-6">Flutter & JS Enthusiast</p>
 
         <a href="#"
           className="inline-flex items-center px-5 py-2 panel-bg rounded-full shadow-md hover:shadow-lg border border-border text-sm"

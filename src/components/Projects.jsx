@@ -5,7 +5,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 const Projects = () => {
   return (
     <section id="projects" className="mb-16 xl:mb-20">
-      <h2 className="text-2xl lg:text-3xl font-bold mb-8">Projects</h2>
+      <h2 className="text-2xl lg:text-3xl font-bold mb-8">Works</h2>
 
       {projectsData.map((project) => (
         <div key={project.id} className="mb-12">
